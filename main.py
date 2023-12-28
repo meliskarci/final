@@ -3,7 +3,7 @@ import pandas as pd
 st.set_page_config(page_title="Rota Tavsiye", layout="wide")
 
 
-df = pd.read_excel("C:\\Users\\Melis\\Desktop\\Miuul\\pycharm projeleri\\FINAL_PROJE_TAVSİYE_SİSTEMİ\\25.12.2023.deneme.xlsx")
+df = pd.read_excel("25.12.2023.deneme.xlsx")
 
 st.header(" :red[Tatil Rotası] Belirlerken Adım Adım Rehber")
 tab_home, tab_write, tab_model = st.tabs(["Ana Sayfa", "Gezi Rehberi", "Nereye Gitsem"])
