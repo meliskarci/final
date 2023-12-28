@@ -7,3 +7,4 @@ streamlit==1.29.0
 requests==2.31.0
 missingno==0.5.2
 inotify
+openpyxl
